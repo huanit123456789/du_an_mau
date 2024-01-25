@@ -1,0 +1,545 @@
+/* ===============================PHAN CLASS CHUNG============================================================================================ */
+
+body{
+    width: 60%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /*VD: width 200px padding 20px ==> width = 240px 
+    Nhung khi dung box-sizing thi ke ca co padding thi width tong van bang 200
+    fix tong tat ca kich thuoc la width ta chi dinh*/
+    box-sizing: border-box;
+}
+
+.row{
+    /* float: left; */
+    width: 100%;
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+
+.mr{
+    margin-right: 2%;
+}
+
+
+/* ================================HEADER===================================================================================================== */
+/* header */
+    /* reponsive ~ font-size vh, vw */
+header{
+    font-size: 1vw;
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: darkgreen;
+    border: 1px solid green;
+}
+
+header>h1{
+    margin: 10px 20px;
+}
+
+nav{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 20px;
+    line-height: 40px;
+    font-size: 1vw;
+}
+
+nav ul li a{
+    /* text-decoration: none; */
+    color: white;
+}
+
+nav ul li a:hover{
+    /* font-size: 1.5vw; */
+    color: red;
+}
+/* ============================================================================================================================= */
+
+
+/* ================================================================================================================================ */
+/* ================================MAIN trang chu nguoi dung=================================================================================  */
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+
+.banner{
+    width: 100%;
+    /* min-height: 300px; */
+}
+
+.banner img{
+    width: 100%;
+    height: 23vw;
+}
+
+.boxsp{
+    width: 32%;
+    float: left;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    /* min-height: 60px; */
+    /* background-color: red; */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.img {
+    width: 100%;
+    text-align: center;
+}
+
+.img img{
+    width: 100%;
+    height: 10vw;
+}
+
+.boxsp p{
+    line-height: 20px;
+}
+
+.boxsp span{
+    line-height: 20px;
+}
+
+
+/* tha noi ~ float ~ xoa di display */
+.boxphai{
+    float: left;
+    width: 24%;
+}
+
+.boxtitle{
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #333;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.boxcontent{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid gray;
+    border-top: none;
+    background-color: white;
+    /* min-height: 100px; */
+    
+}
+
+.formtaikhoan{
+    padding: 20px;
+    line-height: 150%;
+}
+
+.formtaikhoan>form>div{
+    margin-bottom: 10px;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"]
+{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px #ccc solid;
+}
+
+.formtaikhoan button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    /* width: 60%; */
+    font-size: 0.7vw;
+}
+
+.formtaikhoan button:hover{
+    background-color: aqua;
+}
+
+.formtaikhoan ul li{
+    margin: 5px 10px;
+}
+
+.formtaikhoan ul li:hover>a{
+    color: blue;
+}
+
+.boxcontent2{
+    border: 1px solid gray;
+    border-top: none;
+    background-color: white;
+}
+
+.menudm ul{
+    list-style-type: none;
+}
+
+.menudm ul li{
+    padding: 10px 20px;
+    border-bottom: 1px solid #333;
+    /* background-color: #eee; */
+}
+
+.menudm ul li a{
+    display: block;
+}
+
+.menudm ul li:hover{
+    background-color: #ccc;
+}
+
+
+/* input[type="search"]{
+    width: 80%;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px #333    solid;
+    font-size: 0.8vw;
+} */
+
+.boxfooter{
+    background-color: #EEE;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.top10{
+    padding: 5% 2%;
+}
+
+.top img{
+    width: 25%;
+    margin-right: 5%;
+    float: left;
+}
+
+.top{
+    padding: 5%;
+}
+
+.top a:hover{
+    color: red;
+}
+/* =============================================================================================================================== */
+
+
+
+/* ================================================================================================================================ */
+/* ========================FOOTER==================================================================================================== */
+/* footer */
+footer{
+    font-size: 1vw;
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: darkgreen;
+    border: 1px solid green;
+    clear: both;
+}
+
+footer>p{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+
+/* =================================CLASS CHUNG ===========================================================================================*/
+
+label{
+    font-weight: bolder;
+    font-size: 1vw;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+
+/* label,input{
+    
+} */
+
+.checkborder{
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+input[type="text"],
+textarea,
+select,
+input[type=date],
+input[type=file],
+input[type=password],
+input[type=email],
+input[type="search"],
+input[type="number"]
+{
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1vw;
+    border: 1px #ccc solid;
+}
+
+
+input:disabled{
+    background-color: #eee;
+    border-color: #ccc;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    font-size: 0.7vw;
+    margin: 20px 0px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover
+{
+    background-color: aqua;
+}
+
+/* danh sách loại hàng */
+/* .tbdm th:nth-child(1){
+    width: 10%;
+    background-color: teal
+}
+
+.tbdm th:nth-child(2){
+    width: 30%;
+    background-color: tomato;
+
+}
+
+.tbdm th:nth-child(3){
+    width: 30%;
+    background-color: teal;
+
+}
+
+.tbdm th:nth-child(4){
+    width: 30%;
+    background-color: tomato;
+} */
+
+table th{
+    padding: 10px 20px;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+table{
+    border-collapse:collapse ;
+}
+
+table td{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+table button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    font-size: 0.7vw;
+}
+
+table img{
+    width: 5vw;
+    height: 5vw;
+}
+
+/* =====================================================================================================================================*/
+
+
+/* ==================================================================================================================================== */
+/*====================================== DANH MUC, DANH SACH DANH MUC ================================================================*/
+.headerdm{
+    background-color: #DFF0D7;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+
+/*====================================== Hang hoa, danh sách hàng hóa ====================================================================*/
+.boxtraihh{
+    float: left;
+    width: 32%;
+    /* background-color: aqua; */
+}
+
+.boxgiuahh{
+    float: left;
+    width: 32%;
+    /* background-color: aqua; */
+}
+
+.boxphaihh{
+    float: left;
+    width: 32%;
+    /* background-color: aqua; */
+}
+
+/*====================================== KHACH HANG, danh sách khách hàng ===================================================================*/
+.boxtraikh{
+    width: 49%;
+    float: left;
+    /* background-color: aqua; */
+    /* min-height: 60px; */
+}
+
+.boxphaikh{
+    width: 49%;
+    float: left;
+    /* background-color: aqua; */
+    /* min-height: 60px; */
+}
+
+
+/*====================================== BINH LUAN, danh sach binh luan =========================================================================*/
+.caption{
+    padding: 10px 15px;
+}
+
+/*====================================== THONG KE, bieu do ===========================================================================*/
+
+
+
+
+
+/* ====================================================================================================================================== */
+/* ======================================SAN PHAM CHI TIET======================================================================================== */
+.headerspct{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.headerspct ul{
+    margin: 10px 30px;
+}
+
+.headerspct ul li{
+    line-height: 25px;
+}
+
+
+.headerspct>div:nth-child(1){
+    text-align: center;
+}
+
+.headerspct img{
+    width: 35vw;
+    height: 20vw;
+}
+
+.headerspct p{
+    line-height: 18px;
+}
+
+.contentbl ul{
+    padding: 10px 30px;
+}
+
+.contentbl li{
+    /* border-bottom: 1px solid red; */
+    margin-top: 20px;
+}
+
+.contentbl li p {
+    width: 60%;
+    float: left;
+    word-wrap: break-word;
+}
+
+.contentbl li h3 {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+.footerbl{
+    padding: 5px 10px;
+    display: flex;
+}
+
+.footerbl>input{
+    margin: 0px 5px;
+}
+
+
+/* =============================================DANG KY================================================ */
+
+
+
+/* =============================================CẬP NHẬT TÀI KHOẢN================================================ */
+.boxtraitk{
+    /* background-color: aqua; */
+    float: left;
+    width: 30%;
+    /* min-height: 60px; */
+    text-align: center;    
+}
+
+.boxtraitk img{
+    width: 80%;
+    height: auto;
+}
+
+.boxphaitk{
+    /* background-color: aqua; */
+    float: left;
+    width: 68%;
+    /* min-height: 60px; */
+}
+
+
+/* THONG BAO */
+.message{
+    padding: 10px;
+    border-radius: 5px;
+    border:  1px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightpink;
+}
+
+/* Loi */
+.err{
+   color:red;
+}
